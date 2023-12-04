@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "NewVolunteerFirstAidAssignment",
+    "name": "NewRefuelAssignment",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/nonrun/firstaid"
+        "url": "web:4000/nonrun/refuel"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{FirstAidAssignment.formData}",
+      "body": "{{RefuelAssignment.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -43,18 +43,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "RefuelAssignment.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T20:21:14Z"
+    "createdAt": "2023-12-04T23:32:01Z"
   },
-  "id": "Page1_NewVolunteerFirstAidAssignment",
+  "id": "Page1_NewRefuelAssignment",
   "deleted": false,
-  "gitSyncId": "656d522b02a28e33464c23fe_656e34b98c626c30a0f88766"
+  "gitSyncId": "656d522b02a28e33464c23fe_656e61717481dd5316933b3d"
 }
