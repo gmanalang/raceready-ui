@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "SponsorPostForms",
+    "slug": "sponsorpostforms",
     "layouts": [
       {
         "viewMode": false,
@@ -25,30 +25,18 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page2_GetOrgContactInfo",
-              "name": "GetOrgContactInfo",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                ""
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "SponsorPostForms",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "656ee556c4ae535a30bf7da8_656ee568c4ae535a30bf7dad"
