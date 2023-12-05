@@ -7,6 +7,14 @@
     {
       "id": "Organizer Communication",
       "isDefault": false
+    },
+    {
+      "id": "Volunteer Assignment",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Registration",
+      "isDefault": false
     }
   ],
   "viewMode": false,
