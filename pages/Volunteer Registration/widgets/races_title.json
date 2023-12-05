@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Table to see all races",
+    "text": "Table to see ALL races",
     "key": "1k418hzpk6",
     "isDeprecated": false,
     "rightColumn": 46,
