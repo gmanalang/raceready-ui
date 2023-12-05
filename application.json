@@ -1,12 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
+      "id": "SpecificRace",
+      "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Races",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": true
     },
     {
       "id": "CreateEditDeleteRace",
