@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "First-Aid:{{GetSpecificRace.data[0].services}} at {{GetSpecificRace.data[0][\"first-aid venue spot\"]}}",
+    "text": "First-Aid: {{GetSpecificRace.data[0].services}} at {{GetSpecificRace.data[0][\"first-aid venue spot\"]}}",
     "key": "jl31nlbh5s",
     "isDeprecated": false,
     "rightColumn": 64,
