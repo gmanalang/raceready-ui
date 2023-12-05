@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 1420,
           "containerStyle": "none",
           "snapRows": 69,
           "parentRowSpace": 1,
@@ -27,6 +27,16 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Volunteer Assignment_All_Stations",
+              "name": "All_Stations",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Station_Assignment.data.RaceID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Volunteer Assignment_VolunteerStations",
               "name": "VolunteerStations",

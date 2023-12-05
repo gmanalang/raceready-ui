@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Vol_Register_Race",
+    "name": "FirstAidAssignment",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/nonrun/raceregister"
+        "url": "web:4000/nonrun/firstaid"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Volunteer Registration",
+    "pageId": "Volunteer Assignment",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{registration.formData}}",
+      "body": "{{FirstAid.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -39,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
@@ -52,15 +52,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "registration.formData"
+      "FirstAid.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T18:40:40Z"
+    "createdAt": "2023-12-05T20:48:25Z"
   },
-  "id": "Volunteer Registration_Vol_Register_Race",
+  "id": "Volunteer Assignment_FirstAidAssignment",
   "deleted": false,
-  "gitSyncId": "656d522b02a28e33464c23fe_656f6ea88e9a956db71a42bc"
+  "gitSyncId": "656d522b02a28e33464c23fe_656f8c993af761332f6592a1"
 }

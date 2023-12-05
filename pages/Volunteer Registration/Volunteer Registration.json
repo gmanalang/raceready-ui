@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 910,
           "containerStyle": "none",
           "snapRows": 69,
           "parentRowSpace": 1,
@@ -33,6 +33,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Volunteer Registration_Get_Vol_Races",
+              "name": "Get_Vol_Races",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "volID.text"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
