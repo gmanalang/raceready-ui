@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Organizer Communication",
+      "isDefault": false
     }
   ],
   "viewMode": false,
