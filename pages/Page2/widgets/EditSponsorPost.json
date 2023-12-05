@@ -123,7 +123,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 83,
+    "originalBottomRow": 90,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -226,7 +226,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
     "bottomRow": 90,
     "fieldLimitExceeded": false,
