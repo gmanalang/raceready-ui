@@ -5,7 +5,19 @@
       "isDefault": true
     },
     {
-      "id": "Runner",
+      "id": "Runner_ManageRaceRegistrations",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_ManageRaceCheckIns",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_BrowseRaceResults",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_ManageProfile",
       "isDefault": false
     }
   ],
@@ -13,6 +25,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FFEBFB",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Runner",
-    "slug": "runner",
+    "name": "Runner_ManageRaceCheckIns",
+    "slug": "runner-manageracecheckins",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Runner",
+        "id": "Runner_ManageRaceCheckIns",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d522b08f47b6fbb20f477_656f417ca7759851eecc4443"
+  "gitSyncId": "656d522b08f47b6fbb20f477_656f50b0a7759851eecc4467"
 }
