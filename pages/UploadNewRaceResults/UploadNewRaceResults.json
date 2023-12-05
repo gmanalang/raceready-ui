@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "SpecificRace",
-    "slug": "specificrace",
+    "name": "UploadNewRaceResults",
+    "slug": "uploadnewraceresults",
     "layouts": [
       {
         "viewMode": false,
@@ -13,33 +13,22 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 500,
+          "bottomRow": 1010,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 82,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1300,
+          "minHeight": 840,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "SpecificRace_GetSpecificRace",
-              "name": "GetSpecificRace",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "SpecificRace",
+        "id": "UploadNewRaceResults",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f64a0bc3313005d58034e"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f7799bc3313005d580356"
 }

@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 9,
-    "widgetName": "txt_AmentiesLabel",
+    "widgetName": "txt_raceLengthLabel",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 34,
-    "bottomRow": 39,
+    "topRow": 18,
+    "bottomRow": 22,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,13 +28,13 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Amenities: {{GetSpecificRace.data[0].amenities}} at {{GetSpecificRace.data[0][\"refuel station venue spot\"]}}, {{GetSpecificRace.data[1].amenities}} at {{GetSpecificRace.data[1][\"refuel station venue spot\"]}}",
+    "text": "Race Length: {{GetSpecificRace.data[1].raceLength}} miles",
     "key": "jl31nlbh5s",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "2991s0haf7",
+    "widgetId": "98urjxv737",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "originalTopRow": 35,
+    "originalTopRow": 18,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 39,
+    "originalBottomRow": 22,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

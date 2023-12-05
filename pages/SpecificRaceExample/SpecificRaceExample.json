@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "CreateEditDeleteRace",
-    "slug": "createeditdeleterace",
+    "name": "SpecificRaceExample",
+    "slug": "specificraceexample",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,33 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1150,
+          "bottomRow": 500,
           "containerStyle": "none",
-          "snapRows": 82,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 840,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "SpecificRaceExample_GetSpecificRace",
+              "name": "GetSpecificRace",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "CreateEditDeleteRace",
+        "id": "SpecificRaceExample",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656e2c1a1971892b1fdd632a"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f64a0bc3313005d58034e"
 }

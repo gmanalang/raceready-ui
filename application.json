@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "SpecificRace",
+      "id": "SpecificRaceExample",
       "isDefault": false
     },
     {
@@ -13,7 +13,11 @@
       "isDefault": true
     },
     {
-      "id": "CreateEditDeleteRace",
+      "id": "CreateEditDeleteRacePost",
+      "isDefault": false
+    },
+    {
+      "id": "UploadNewRaceResults",
       "isDefault": false
     }
   ],

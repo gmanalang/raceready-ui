@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetSpecificRace",
+    "name": "UploadRaceResults",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/run/races/1"
+        "url": "web:4000/org/results"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "SpecificRace",
+    "pageId": "UploadNewRaceResults",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,8 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "{{Upload_New_Race_Results.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,26 +40,28 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Upload_New_Race_Results.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T15:51:07Z"
+    "createdAt": "2023-12-05T19:18:49Z"
   },
-  "id": "SpecificRace_GetSpecificRace",
+  "id": "UploadNewRaceResults_UploadRaceResults",
   "deleted": false,
-  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f46ebbc3313005d58032d"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f7799bc3313005d580359"
 }
