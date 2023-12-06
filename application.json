@@ -1,11 +1,7 @@
 {
   "pages": [
     {
-      "id": "SpecificRaceExample",
-      "isDefault": false
-    },
-    {
-      "id": "Races",
+      "id": "ViewingRacesAndRaceDetails",
       "isDefault": false
     },
     {

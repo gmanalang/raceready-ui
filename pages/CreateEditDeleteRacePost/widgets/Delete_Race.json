@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#1e3a8a",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{DeleteRace.run(Delete_Race.formData);}}",
+    "onSubmit": "{{DeleteRace.run(Delete_Race.formData).catch(() => {\n  showAlert('Race already has race results!', '');\n});}}",
     "topRow": 90,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

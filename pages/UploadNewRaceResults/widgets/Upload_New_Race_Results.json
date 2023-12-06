@@ -3,7 +3,7 @@
     "borderColor": "#1e3a8a",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{UploadRaceResults.run()}}",
-    "topRow": 15,
+    "topRow": 16,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
@@ -51,7 +51,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Upload",
+    "submitButtonLabel": "Upload!",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 107,
+    "originalBottomRow": 108,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -391,7 +391,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 107,
+    "bottomRow": 108,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Upload the Race Results of a Runner!",
@@ -405,7 +405,7 @@
     "key": "nbxr1m4gae",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 34,
     "widgetId": "rkw0ze6r2z",
     "minWidth": 450,
     "parentId": "0",
@@ -414,7 +414,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 15,
+    "originalTopRow": 16,
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

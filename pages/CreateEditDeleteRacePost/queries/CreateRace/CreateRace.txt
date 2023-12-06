@@ -1,1 +1,1 @@
-{{Create_New_Race.formData}}
+{{CreateNewRace.formData}}
