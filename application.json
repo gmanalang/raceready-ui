@@ -23,12 +23,34 @@
     {
       "id": "UploadNewRaceResults",
       "isDefault": false
+    },
+    {
+      "id": "Runner_ManageRaceRegistrations",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_BrowseRaceResults",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_ManageProfile",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer_Registration",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FFEBFB",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
