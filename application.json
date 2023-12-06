@@ -9,6 +9,15 @@
       "isDefault": true
     },
     {
+      "id": "Organizer Communication",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Assignment",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Registration",
       "id": "CreateEditDeleteRacePost",
       "isDefault": false
     },
