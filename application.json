@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "ViewingRacesAndRaceDetails",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     },
@@ -14,6 +18,11 @@
     },
     {
       "id": "Volunteer Registration",
+      "id": "CreateEditDeleteRacePost",
+      "isDefault": false
+    },
+    {
+      "id": "UploadNewRaceResults",
       "isDefault": false
     }
   ],

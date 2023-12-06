@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "AllVendors",
+    "name": "GetAllRaces",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/org/vendors"
+        "url": "web:4000/run/races"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "ViewingRacesAndRaceDetails",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T03:51:12Z"
+    "createdAt": "2023-12-05T15:48:09Z"
   },
-  "id": "Page1_AllVendors",
+  "id": "ViewingRacesAndRaceDetails_GetAllRaces",
   "deleted": false,
-  "gitSyncId": "656d4c57c2b5e45d5d376a40_656d4cb0c2b5e45d5d376a45"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656f4639bc3313005d58032b"
 }

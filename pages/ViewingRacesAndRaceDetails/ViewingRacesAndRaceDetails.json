@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "ViewingRacesAndRaceDetails",
+    "slug": "viewingracesandracedetails",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1380,
+          "bottomRow": 980,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_AllVendors",
-              "name": "AllVendors",
+              "id": "ViewingRacesAndRaceDetails_GetAllRaces",
+              "name": "GetAllRaces",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "ViewingRacesAndRaceDetails_GetSpecificRace",
+              "name": "GetSpecificRace",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "AllRaces.selectedRow.raceID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "ViewingRacesAndRaceDetails",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -48,8 +59,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d4c57c2b5e45d5d376a40_656d4c57c2b5e45d5d376a42"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656ebedfbc3313005d580325"
 }

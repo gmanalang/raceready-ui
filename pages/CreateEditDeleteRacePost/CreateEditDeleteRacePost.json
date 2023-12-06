@@ -1,46 +1,34 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "CreateEditDeleteRacePost",
+    "slug": "createeditdeleteracepost",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1380,
+          "bottomRow": 1170,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 82,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 840,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_AllVendors",
-              "name": "AllVendors",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "CreateEditDeleteRacePost",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -48,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d4c57c2b5e45d5d376a40_656d4c57c2b5e45d5d376a42"
+  "gitSyncId": "656d4f49c2b5e45d5d376a4c_656e2c1a1971892b1fdd632a"
 }
