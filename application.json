@@ -19,6 +19,22 @@
     {
       "id": "UploadNewRaceResults",
       "isDefault": false
+    },
+    {
+      "id": "Runner_ManageRaceRegistrations",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_BrowseRaceResults",
+      "isDefault": false
+    },
+    {
+      "id": "Runner_ManageProfile",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Registration",
+      "isDefault": false
     }
   ],
   "viewMode": false,
