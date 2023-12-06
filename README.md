@@ -1,5 +1,7 @@
 # raceready-ui![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
+NOTE: had issue merging code into main. please see branches for all actual commit history for my groupmmates, I (Kevin) obviously was not the only person working on this repo, thanks!
+
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
