@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "ViewingRacesAndRaceDetails",
+      "id": "Viewing Races And Race Details",
       "isDefault": true
     },
     {
@@ -13,23 +13,23 @@
       "isDefault": false
     },
     {
-      "id": "CreateEditDeleteRacePost",
+      "id": "Create Edit Delete Race Post",
       "isDefault": false
     },
     {
-      "id": "UploadNewRaceResults",
+      "id": "Upload New Race Results",
       "isDefault": false
     },
     {
-      "id": "Runner_ManageRaceRegistrations",
+      "id": "Manage Race Registration",
       "isDefault": false
     },
     {
-      "id": "Runner_BrowseRaceResults",
+      "id": "Runner Browse Race Results",
       "isDefault": false
     },
     {
-      "id": "Runner_ManageProfile",
+      "id": "Runner Manage Profile",
       "isDefault": false
     },
     {
