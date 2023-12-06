@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 540,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -33,6 +33,19 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Runner_BrowseRaceResults_GetRaceResults",
+              "name": "GetRaceResults",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RanInRaces.selectedRow.raceID",
+                "31"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

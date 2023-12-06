@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{UpdateRunnerProfile.run().then(() => {\n  showAlert('Changed name!', 'success');\n  GetRunner31Profile.run();\n}).catch(() => {\n  showAlert('Failed to change name!', 'error');\n});}}",
+    "onSubmit": "{{UpdateRunnerProfile.run().then(() => {\n  showAlert('Changed name!', 'success');\n  GetRunner31Profile.run().then(() => {});\n}).catch(() => {\n  showAlert('Failed to change name!', 'error');\n});}}",
     "topRow": 31,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
