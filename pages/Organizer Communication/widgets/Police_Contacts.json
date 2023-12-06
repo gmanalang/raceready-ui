@@ -13,8 +13,8 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "primaryColumns.Name.computedValue"},
-        {"key": "primaryColumns.phone.computedValue"}
+        {"key": "primaryColumns.phone.computedValue"},
+        {"key": "primaryColumns.name.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -58,15 +58,15 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701797177973,
+    "columnUpdatedAt": 1701839637464,
     "originalBottomRow": 46,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 29,
     "widgetName": "Police_Contacts",
     "defaultPageSize": 0,
     "columnOrder": [
-        "Name",
-        "phone"
+        "phone",
+        "name"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -112,14 +112,14 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
-        "Name": {
-            "computedValue": "{{Police_Contacts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+        "name": {
+            "computedValue": "{{Police_Contacts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "Name",
+            "alias": "name",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "Name",
+            "id": "name",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -130,8 +130,7 @@
             "index": 0,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Name",
-            "fontStyle": "",
+            "label": "name",
             "textColor": "#1e3a8a",
             "columnType": "text",
             "thousandSeparator": true,
@@ -141,9 +140,8 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "Name",
+            "originalId": "name",
             "currencyCode": "USD",
-            "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
