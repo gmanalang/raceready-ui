@@ -1,4 +1,0 @@
-{
-	"race_id": {{AllRaces.selectedRow.raceID}},
-	"runner_id": 31
-}
