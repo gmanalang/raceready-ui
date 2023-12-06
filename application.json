@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "HomePage",
-      "isDefault": true
-    },
-    {
       "id": "Runner_ManageRaceRegistrations",
       "isDefault": false
     },
