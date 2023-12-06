@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "NotRegisteredModalRegister",
-    "onClick": "{{RegisterRunner.run().then(() => {\n  showAlert('Registered!', 'success');\n}).catch(() => {\n  showAlert('Failed to register!', 'error');\n});}}",
+    "onClick": "{{RegisterRunner.run().then(() => {\n  showAlert('Registered!', 'success');\n  GetListOfRaces.run();\n}).catch(() => {\n  showAlert('Failed to register!', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

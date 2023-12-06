@@ -9,10 +9,6 @@
       "isDefault": false
     },
     {
-      "id": "Runner_ManageRaceCheckIns",
-      "isDefault": false
-    },
-    {
       "id": "Runner_BrowseRaceResults",
       "isDefault": false
     },
@@ -26,6 +22,9 @@
   "unreadCommentThreads": 0,
   "color": "#FFEBFB",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "RegisteredModalRefund",
-    "onClick": "{{RefundRunner.run().then(() => {\n  showAlert('Refunded and unregistered!', 'success');\n}).catch(() => {\n  showAlert('Failed to refund!', 'error');\n});}}",
+    "onClick": "{{RefundRunner.run().then(() => {\n  showAlert('Refunded and unregistered!', 'success');\n  GetListOfRaces.run();\n}).catch(() => {\n  showAlert('Failed to refund!', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
