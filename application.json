@@ -2,10 +2,6 @@
   "pages": [
     {
       "id": "ViewingRacesAndRaceDetails",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
       "isDefault": true
     },
     {
