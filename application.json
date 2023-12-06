@@ -1,8 +1,40 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Viewing Races And Race Details",
       "isDefault": true
+    },
+    {
+      "id": "Organizer Communication",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Assignment",
+      "isDefault": false
+    },
+    {
+      "id": "Create Edit Delete Race Post",
+      "isDefault": false
+    },
+    {
+      "id": "Upload New Race Results",
+      "isDefault": false
+    },
+    {
+      "id": "Manage Race Registration",
+      "isDefault": false
+    },
+    {
+      "id": "Runner Browse Race Results",
+      "isDefault": false
+    },
+    {
+      "id": "Runner Manage Profile",
+      "isDefault": false
+    },
+    {
+      "id": "Volunteer Registration",
+      "isDefault": false
     }
   ],
   "viewMode": false,

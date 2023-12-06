@@ -2,17 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "AllVendors",
+    "name": "UpdateRunnerProfile",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-<<<<<<<< HEAD:pages/Page1/queries/AllVendors/metadata.json
-        "sshProxyEnabled": false,
-        "url": "web:4000/org/vendors"
-========
         "url": "web:4000/run/profiles/31"
->>>>>>>> origin/new-release-5:pages/Runner Manage Profile/queries/GetRunner31Profile/metadata.json
       },
       "invalids": [],
       "messages": [],
@@ -21,11 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-<<<<<<<< HEAD:pages/Page1/queries/AllVendors/metadata.json
-    "pageId": "Page1",
-========
     "pageId": "Runner Manage Profile",
->>>>>>>> origin/new-release-5:pages/Runner Manage Profile/queries/GetRunner31Profile/metadata.json
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,8 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "{{UpdateRunnerProfileForm.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -50,27 +42,25 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "UpdateRunnerProfileForm.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-<<<<<<<< HEAD:pages/Page1/queries/AllVendors/metadata.json
-    "createdAt": "2023-12-04T03:51:12Z"
+    "createdAt": "2023-12-06T06:56:01Z"
   },
-  "id": "Page1_AllVendors",
+  "id": "Runner Manage Profile_UpdateRunnerProfile",
   "deleted": false,
-  "gitSyncId": "656d4c57c2b5e45d5d376a40_656d4cb0c2b5e45d5d376a45"
-========
-    "createdAt": "2023-12-06T06:55:41Z"
-  },
-  "id": "Runner Manage Profile_GetRunner31Profile",
-  "deleted": false,
-  "gitSyncId": "6570140d4a240822f848c0a5_65701aed4a240822f848c10c"
->>>>>>>> origin/new-release-5:pages/Runner Manage Profile/queries/GetRunner31Profile/metadata.json
+  "gitSyncId": "6570140d4a240822f848c0a5_65701b014a240822f848c10e"
 }
